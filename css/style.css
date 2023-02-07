@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(56, 14, 14);
+}
+
+@media screen and (max-width: 768px  ) {
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        width: 30em;
+    }
+    
+    body {
+        background-color: rgb(56, 14, 14);
+    }
+    
+}
+
+.Logoavion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+.Logoavion img {
+    height: 7em;
+}
+
+.Container1 {
+    background-image: url(../assets/img/c20185bbf0dd5c6c2576eefdecd3380b.jpg);
+    background-size: 77em;
+    background-position: 50% 71%;
+    background-repeat: no-repeat;
+    border: solid 1px rgb(87, 87, 87);
+    margin: auto;
+    width: 77em;
+    height: 48em;
+}
+ 
+.Logomontagne {  
+    height: 75px;
+    padding: 30%;
+} 
+
+.Nomdusite {
+    display: grid;
+    justify-items: end;
+    margin: -30%;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: 26%; 
+    width: 270px;
+    margin-top: -3%;
+}
+
+.Introduction {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Introduction p {
+    font-family: trebuchet MS;
+    color: white;
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    font-size: 629%;
+    margin-top: -1%;
+    margin-left: 7%;
+}
+
+.Réseaux {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    margin-left: 3%;
+    width: 2%;
+}
+
+.Facebook {
+    margin-left: 3%;
+    padding-top: 2%;
+    width: 1%;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Icones {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14%;
+}
+.Icones img {
+    background-color: rgb(249 249 249 / 64%);
+    width: 60px;
+    height: 60px;
+    margin-left: 1em;
+    margin-top: -0.6em;
+    border-radius: 23%;
+    padding: 1px 1px 1px 1px;
+}
+
+.Texte1 {
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 19px;
+    margin-top: -1%;
+    margin-left: 19%;
+    margin-right: 5%;
+    text-align: initial;
+}
+
+.Validation {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+.Valider {
+    width: 21%;
+    border-radius: 1em;
+    padding: 3px;
+    background-color: transparent;
+    color: white;
+    border: solid white;
+    text-align: center;
+    font-size: 160%;
+    margin-left: 3%;
+    font-weight: bolder;
+}
+
+.Container3 {
+    background: linear-gradient(0deg, rgb(17 17 17) 73%, rgba(243,243,243,0) 94%);
+    display: grid; 
+    grid-template-columns: repeat(14, 1fr);
+    grid-auto-rows: 11%;
+    height: 72em;
+    margin-top: -212px;
+}
+
+.Partie1 {
+    color: white;
+    grid-column: 2/6;
+    grid-row: 4/30;
+}
+
+.Nom1 {
+    font-size: 350%;
+    padding-right: 26%;
+    margin-top: -19%;
+}
+
+h2 {
+    font-family: Arial;
+    padding-left: 8%;
+    font-size: 160%;
+    margin-top: -2%;
+}
+
+.Texte2 {
+    font-family: Trebuchet MS;
+    font-size: 109%;
+    padding-top: 8%;
+    margin-left: 8%;
+    text-align: inherit;
+    margin-right: -34%;
+}
+
+.Indication {
+    grid-column: 1/14;
+    grid-row: 5/30;
+    color: white;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 80%;
+    font-family: Trebuchet MS;
+}
+
+.Flèche {
+    grid-column: 3/14;
+    grid-row: 5/30;
+    color: white;
+    width: 4%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.Illustration {
+    display: grid;
+}
+
+.Géométrie {
+    grid-column: 11/12;
+    grid-row: 1/30;
+    height: 15em;
+    width: 25em;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px grey;
+    margin-top: -173%;
+    margin-left: -19%;
+}
+
+.Images {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -7%;
+}
+
+.Zen {
+    height: 20em;
+    width: 15em;
+    border-radius: 11px;
+    margin-top: -38%;
+    border: solid 1px grey;
+}
+
+.Piscine {
+    height: 20em;
+    width: 15em;
+    border-radius: 10px;
+    margin-top: -38%;
+    border: solid 1px grey;
+}
+
+.Nature {
+    height: 20em;
+    width: 15em;
+    border-radius: 10px;
+    margin-top: -38%;
+    border: solid 1px grey;
+}
+
+.Container4 {
+    display: grid;
+}
+
+.Nom2 {
+    font-size: 350%;
+    padding-right: 26%;
+    margin-top: -19%;
+}
+
+.Texte3 {
+
+}
+
+.Spa {
+    grid-column: 1/12;
+    grid-row: 34/30;
+    height: 20em;
+    width: 32em;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px grey;
+    margin-top: -5%;
+    margin-left: 6%;
+}
+
+.Indication2 {
+
+}
+
+.Flèche2 {
+
+}
